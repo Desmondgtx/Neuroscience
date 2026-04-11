@@ -1,0 +1,17 @@
+{
+  "pathToPandoc": "C:\\Users\\yangy\\anaconda3\\Scripts\\pandoc.EXE",
+  "tooltipDelay": 400,
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "Mi biblioteca",
+      "lastUpdate": 1775930245847
+    }
+  ],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ieee.csl",
+  "pullFromZotero": true,
+  "hideLinks": false
+}

@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"eec04380b69ce299","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"FitModels"},
+		{"id":"357b675625d2789a","x":-125,"y":60,"width":250,"height":60,"type":"text","text":"HelperFunctions"},
+		{"id":"830d942681797195","x":-125,"y":160,"width":250,"height":60,"type":"text","text":"PredModels"},
+		{"id":"ed6826ca5a510b54","x":440,"y":60,"width":250,"height":60,"type":"text","text":"Data_prep_for_fitting"},
+		{"id":"d62da2b9809436ba","x":440,"y":158,"width":250,"height":60,"type":"text","text":"Data_model_comparison"}
+	],
+	"edges":[
+		{"id":"b17729586a8a1aca","fromNode":"357b675625d2789a","fromSide":"right","toNode":"ed6826ca5a510b54","toSide":"left"},
+		{"id":"68da10a65f5895a8","fromNode":"357b675625d2789a","fromSide":"right","toNode":"d62da2b9809436ba","toSide":"left"},
+		{"id":"69ed634fb73e10ab","fromNode":"830d942681797195","fromSide":"right","toNode":"d62da2b9809436ba","toSide":"left"},
+		{"id":"e95486578ffd2881","fromNode":"830d942681797195","fromSide":"right","toNode":"ed6826ca5a510b54","toSide":"left"},
+		{"id":"62175323174d852f","fromNode":"eec04380b69ce299","fromSide":"right","toNode":"ed6826ca5a510b54","toSide":"left"}
+	]
+}
