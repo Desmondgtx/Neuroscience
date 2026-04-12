@@ -271,11 +271,11 @@ The opposite of a derivatve is an *integral*, wich finds the are under the curve
 Riemann Sums:
 $f(x) = x^2+1$
 Find the AUC between 0 and 1
-![[Captura de pantalla 2026-04-12 141533.png|461]]
+![[Area Under the Curve.png|461]]
 
 We can divide the are into rectangles, wich give us a good approximation of the AUC
 (The are of a rectangle is $A = length * width$)
-![[Captura de pantalla 2026-04-12 141541.png|461]]
+![[Area Under the Curve Rectangles.png|461]]
 
 Python Code:
 ```Python

@@ -26,12 +26,12 @@
 
 ##### Tipos de distribuciones
 
-![[WhatsApp Image 2026-04-07 at 22.20.24.jpeg]]
+![[Distributions.jpeg]]
 
 
 ##### Q-Q Plot:
 
-![[WhatsApp Image 2026-04-07 at 22.20.23.jpeg]]
+![[Q-Q Plot Example.jpeg]]
 
 
 

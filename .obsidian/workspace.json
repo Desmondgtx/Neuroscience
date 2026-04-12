@@ -11,14 +11,12 @@
             "id": "4b62caf5b3bc0e87",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Essential Math for Data Science/Basics.md",
-                "mode": "source",
-                "source": false
+                "file": "Pictures/Captura de pantalla 2025-07-13 194530.png"
               },
-              "icon": "lucide-file",
-              "title": "Basics"
+              "icon": "lucide-image",
+              "title": "Captura de pantalla 2025-07-13 194530"
             }
           }
         ]
@@ -198,34 +196,33 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "8295777054cfe80c",
+  "active": "4b62caf5b3bc0e87",
   "lastOpenFiles": [
-    "Pictures/Captura de pantalla 2026-04-12 141541.png",
-    "Pictures/Captura de pantalla 2026-04-12 141533.png",
+    "Pictures/Cuarteto de Anscombe.jpg",
+    "Estadística Avanzada/Modelos de Regresión.md",
+    "Estadística Avanzada/Distribuciones.md",
+    "Estadística Avanzada/Conceptos Básicos.md",
     "Pictures/Captura de pantalla 2026-04-11 221004.png",
-    "Pictures/Captura de pantalla 2026-04-11 213301.png",
+    "Pictures/Area Under the Curve.png",
+    "Pictures/Area Under the Curve Rectangles.png",
+    "Pictures/Distributions.jpeg",
+    "Pictures/Q-Q Plot Example.jpeg",
+    "Pictures/Random Walk.png",
+    "Pictures/Imagen1.png",
+    "Pictures/Frequency Random Walk Model.png",
+    "Pictures/Frequency decision drift.png",
+    "Essential Math for Data Science/Basics.md",
     "Diseños Experimentales/Pre-registro.md",
     "Computational Modeling of Cognition and Behavior/Parameters.md",
     "Computational Modeling of Cognition and Behavior/Chapter 2.md",
-    "Essential Math for Data Science/Basics.md",
     "Computational Modeling of Cognition and Behavior/Chapter 3.md",
     "Computational Modeling of Cognition and Behavior/Chapter 1.md",
     "Computational Modeling of Cognition and Behavior/Verbal Theorizing.md",
     "Computational Modeling of Cognition and Behavior/Residual Mean-Squared Deviation.md",
     "Computational Modeling of Cognition and Behavior/Learning Rate.md",
     "Computational Modeling of Cognition and Behavior/Computational Modeling.md",
-    "Pictures/Captura de pantalla 2026-04-10 104509.png",
-    "Pictures/Captura de pantalla 2026-04-10 104500.png",
-    "Estadística Avanzada/Modelos de Regresión.md",
-    "Estadística Avanzada/Distribuciones.md",
     "Estadística Avanzada/Conceptos Estadística.md",
-    "Estadística Avanzada/Conceptos Básicos.md",
-    "Pictures/Captura de pantalla 2026-04-08 174346.png",
-    "Pictures/Captura de pantalla 2026-04-08 173944.png",
-    "Pictures/Captura de pantalla 2026-04-08 172601.png",
-    "Pictures/Captura de pantalla 2026-04-08 172219.png",
     "Scripts/Learning Rate Script.md",
-    "sddefault.jpg",
     "Essential Math for Data Science",
     "Sin título.md",
     "Diseños Experimentales",

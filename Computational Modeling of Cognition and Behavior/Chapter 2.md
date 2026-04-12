@@ -9,7 +9,7 @@ People tend to process a small number of lines, sampling and sum this samples to
 
 Graphics from [[Random Walk Model Script]]
 
-![[Rplot.png]]
+![[Random Walk.png]]
 **Figure 2.1** Graphical illustration of a simple random-walk model. Each path corresponds to a single choice trial in which the participant repeatedly samples evidence from the stimulus until the sum of  the evidence is sufficient to make a response. X-axis is the time
 
 When a stimulus presents information in favore of one or another decisions this introduces the concept of "drift". Having a highly informative stimulus (drift) permits more rapid extraction of information than staring at a non-informative stimulus that defies quick analysis

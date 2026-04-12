@@ -68,7 +68,7 @@ Correlación negativa: inversamente proporcional
 ### Cuarteto de Anscombe
 Misma correlación, distintas relaciones funcionales
 
-![[1651978137592.jpg]]
+![[Cuarteto de Anscombe.jpg]]
 
 
 ### Correlación de Spearman
