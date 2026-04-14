@@ -11,12 +11,14 @@
             "id": "4b62caf5b3bc0e87",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pictures/Captura de pantalla 2025-07-13 194530.png"
+                "file": "Estadística Avanzada/Regresión No Lineal.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Captura de pantalla 2025-07-13 194530"
+              "icon": "lucide-file",
+              "title": "Regresión No Lineal"
             }
           }
         ]
@@ -198,10 +200,19 @@
   },
   "active": "4b62caf5b3bc0e87",
   "lastOpenFiles": [
-    "Pictures/Cuarteto de Anscombe.jpg",
     "Estadística Avanzada/Modelos de Regresión.md",
-    "Estadística Avanzada/Distribuciones.md",
+    "Estadística Avanzada/Regresión No Lineal.md",
     "Estadística Avanzada/Conceptos Básicos.md",
+    "Estadística Avanzada/Conceptos Estadística.md",
+    "Estadística Avanzada/Distribuciones.md",
+    "Computational Modeling of Cognition and Behavior/Parameters.md",
+    "Computational Modeling of Cognition and Behavior/Chapter 2.md",
+    "Essential Math for Data Science/Basics.md",
+    "Causal Reasoning/Markov Machines.canvas",
+    "Essential Math for Data Science/Probability.md",
+    "Estadística Avanzada/Regresión Lineal.md",
+    "Pictures/Captura de pantalla 2025-07-13 194530.png",
+    "Pictures/Cuarteto de Anscombe.jpg",
     "Pictures/Captura de pantalla 2026-04-11 221004.png",
     "Pictures/Area Under the Curve.png",
     "Pictures/Area Under the Curve Rectangles.png",
@@ -210,18 +221,13 @@
     "Pictures/Random Walk.png",
     "Pictures/Imagen1.png",
     "Pictures/Frequency Random Walk Model.png",
-    "Pictures/Frequency decision drift.png",
-    "Essential Math for Data Science/Basics.md",
     "Diseños Experimentales/Pre-registro.md",
-    "Computational Modeling of Cognition and Behavior/Parameters.md",
-    "Computational Modeling of Cognition and Behavior/Chapter 2.md",
     "Computational Modeling of Cognition and Behavior/Chapter 3.md",
     "Computational Modeling of Cognition and Behavior/Chapter 1.md",
     "Computational Modeling of Cognition and Behavior/Verbal Theorizing.md",
     "Computational Modeling of Cognition and Behavior/Residual Mean-Squared Deviation.md",
     "Computational Modeling of Cognition and Behavior/Learning Rate.md",
     "Computational Modeling of Cognition and Behavior/Computational Modeling.md",
-    "Estadística Avanzada/Conceptos Estadística.md",
     "Scripts/Learning Rate Script.md",
     "Essential Math for Data Science",
     "Sin título.md",
@@ -232,13 +238,9 @@
     "Prosocial Behavior/Lockwod et al., 2016.md",
     "Prosocial Behavior/Concepts Prosocial Behavior.md",
     "Algorithms and Data Structures/OOP.md",
-    "Algorithms and Data Structures/Basics Python.md",
-    "Street Fighter 6/Street Fighter 6.md",
-    "SF6 - MarkMap.md",
     "UV/RNNs.canvas",
     "UV/fMRI - BOLD.canvas",
     "Street Fighter 6",
-    "Causal Reasoning/Markov Machines.canvas",
     "Causal Reasoning/Kolvoort/BMS - Koolvort.canvas",
     "UV",
     "RoadMap.canvas",

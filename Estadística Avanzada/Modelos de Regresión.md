@@ -129,3 +129,6 @@ Se busca el mínimo local para minimizar la suma de los errores cuadráticos y r
 - Ajustar un modelo de regresión
 - Visualizar residuos
 - Visualizar modelo con intervalo de confianza (R^2, p valor, etc)
+
+
+Clase 3: [[Regresión No Lineal]]

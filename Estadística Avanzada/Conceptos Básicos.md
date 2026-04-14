@@ -25,7 +25,7 @@
 *Si la distribución NO ES normal: Análisis NO paramétricos*
 
 ##### Tipos de distribuciones
-
+[[Distribuciones]]
 ![[Distributions.jpeg]]
 
 
