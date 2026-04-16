@@ -41,7 +41,7 @@ Where α is the learning rate parameter and e ≈ 2.71
 So for α = 0.1 and the 10th trial: 
 $$RT = e^{-0.1*10} = e^{-1} = 0.368$$
 
-![[Captura de pantalla 2025-07-13 194530.png]]
+![[Learning Rate.png]]
 Learning rate: Solid Line
 Exponential function: Dashed line
 

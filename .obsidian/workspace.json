@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estadística Avanzada/Regresión No Lineal.md",
+                "file": "Diseños Experimentales/Muestra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regresión No Lineal"
+              "title": "Muestra"
             }
           }
         ]
@@ -87,7 +87,7 @@
       {
         "id": "ca71aa8192bb1513",
         "type": "tabs",
-        "dimension": 60.65891472868216,
+        "dimension": 60.90686274509803,
         "children": [
           {
             "id": "4c27a582282897f6",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Causal Reasoning/Markov Machines.canvas",
+                "file": "UV/Taller Neurociencias Computacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Markov Machines"
+              "title": "Enlaces entrantes de Taller Neurociencias Computacional"
             }
           },
           {
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pictures/Captura de pantalla 2026-04-08 174346.png",
+                "file": "Diseños Experimentales/Muestra.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Captura de pantalla 2026-04-08 174346"
+              "title": "Esquema de Muestra"
             }
           },
           {
@@ -143,8 +143,8 @@
             "state": {
               "type": "ReferenceListView",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "ReferenceListView"
+              "icon": "quote-glyph",
+              "title": "References"
             }
           },
           {
@@ -168,7 +168,7 @@
       {
         "id": "288b9f667df52ea3",
         "type": "tabs",
-        "dimension": 39.34108527131783,
+        "dimension": 39.09313725490196,
         "children": [
           {
             "id": "6af123a6718c9227",
@@ -184,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5,
-    "collapsed": true
+    "width": 339.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,28 +199,33 @@
   },
   "active": "4b62caf5b3bc0e87",
   "lastOpenFiles": [
-    "Estadística Avanzada/Modelos de Regresión.md",
+    "UV/Taller Neurociencias Computacional.md",
+    "Prosocial Behavior/Lockwod et al., 2016.md",
+    "Prosocial Behavior/Seminario.md",
+    "Prosocial Behavior/Concepts Prosocial Behavior.md",
+    "Pictures/Imagen1.png",
+    "Pictures/Slope.png",
+    "Pictures/Captura de pantalla 2026-04-08 174346.png",
+    "Pictures/Captura de pantalla 2026-04-11 221004.png",
+    "Pictures/Invalid Function.png",
+    "Pictures/Valid Function.png",
+    "Pictures/Properties.png",
+    "Pictures/Captura de pantalla 2026-04-08 172601.png",
+    "Pictures/Diagrama Sagital.png",
+    "Pictures/Captura de pantalla 2026-04-08 114443.png",
     "Estadística Avanzada/Regresión No Lineal.md",
-    "Estadística Avanzada/Conceptos Básicos.md",
+    "Diseños Experimentales/Muestra.md",
+    "Diseños Experimentales/Pre-registro.md",
+    "Essential Math for Data Science/Basics.md",
     "Estadística Avanzada/Conceptos Estadística.md",
     "Estadística Avanzada/Distribuciones.md",
+    "Estadística Avanzada/Modelos de Regresión.md",
+    "Estadística Avanzada/Conceptos Básicos.md",
     "Computational Modeling of Cognition and Behavior/Parameters.md",
     "Computational Modeling of Cognition and Behavior/Chapter 2.md",
-    "Essential Math for Data Science/Basics.md",
     "Causal Reasoning/Markov Machines.canvas",
     "Essential Math for Data Science/Probability.md",
     "Estadística Avanzada/Regresión Lineal.md",
-    "Pictures/Captura de pantalla 2025-07-13 194530.png",
-    "Pictures/Cuarteto de Anscombe.jpg",
-    "Pictures/Captura de pantalla 2026-04-11 221004.png",
-    "Pictures/Area Under the Curve.png",
-    "Pictures/Area Under the Curve Rectangles.png",
-    "Pictures/Distributions.jpeg",
-    "Pictures/Q-Q Plot Example.jpeg",
-    "Pictures/Random Walk.png",
-    "Pictures/Imagen1.png",
-    "Pictures/Frequency Random Walk Model.png",
-    "Diseños Experimentales/Pre-registro.md",
     "Computational Modeling of Cognition and Behavior/Chapter 3.md",
     "Computational Modeling of Cognition and Behavior/Chapter 1.md",
     "Computational Modeling of Cognition and Behavior/Verbal Theorizing.md",
@@ -232,12 +236,7 @@
     "Essential Math for Data Science",
     "Sin título.md",
     "Diseños Experimentales",
-    "UV/Taller Neurociencias Computacional.md",
     "Papers.md",
-    "Prosocial Behavior/Seminario.md",
-    "Prosocial Behavior/Lockwod et al., 2016.md",
-    "Prosocial Behavior/Concepts Prosocial Behavior.md",
-    "Algorithms and Data Structures/OOP.md",
     "UV/RNNs.canvas",
     "UV/fMRI - BOLD.canvas",
     "Street Fighter 6",

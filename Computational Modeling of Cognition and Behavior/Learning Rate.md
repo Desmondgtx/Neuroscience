@@ -9,6 +9,6 @@ $$RT = N^{-β}$$
 β represents the slope of the learning curve on a logaritmic plot
 (Solid line)
 
-![[Captura de pantalla 2025-07-13 194530.png]]
+![[Learning Rate.png]]
 
 With [[Residual Mean-Squared Deviation]] can captures individual differences in learning speed or task differences between participants

@@ -102,3 +102,5 @@ Es imposible decidir sobre las implicaciones éticas de los propios experimentos
 - La habilidad de mi estudio y/o experimento para generalizarse a otras poblaciones (**replicabilidad**)
 - En estos estudios con validez interna alta, la validez externa puede ser baja por *no ser representativos de situaciones naturales*
 
+
+Clase 2: [[Muestra]]

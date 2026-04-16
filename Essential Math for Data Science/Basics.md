@@ -12,7 +12,7 @@ A function is a mapping and must be 1:1 (like a Python dictionary: for each key 
 
 "Diagrama Sagital"
 - Just R1, R3 and R6 are valid functions
-![[Captura de pantalla 2026-04-08 172219.png|546]]
+![[Diagrama Sagital.png|546]]
 
 
 ## Summations:
@@ -52,7 +52,7 @@ $2^x = 8 => log_2 8 = x$
 
 
 ## Properties
-![[Captura de pantalla 2026-04-08 173944.png|476]]
+![[Properties.png|476]]
 
 
 ## Euler's number
@@ -103,11 +103,11 @@ The limit is the value that is *being approach* not the actual value
 Example
 - *Valid Function*
 
-![[Captura de pantalla 2026-04-10 104500.png|363]]
+![[Valid Function.png|363]]
 - $f(-1) = 0$
 
 - *Invalid function*
-![[Captura de pantalla 2026-04-10 104509.png|358]]
+![[Invalid Function.png|358]]
 - limit DNE (does not exist)
 - $\lim_{x \to a^-} fx = L_1 \neq \lim_{x \to a^+} fx = L_2$
 
@@ -120,7 +120,7 @@ When the slope is 0 we are at the min o the max of a funcion
 - Useful in linear or logistic regressions and neural networks
 
 - Example
-![[Captura de pantalla 2026-04-11 213301.png|446]]
+![[Slope.png|446]]
 - You can calculate the slope $m$ between two points using the formula
 	- $m = \frac{y_2-y_1}{x_2-x_1}$
 	- $m = \frac{4.41-4.0}{2.1-2.0}$
@@ -329,3 +329,4 @@ area = limit(n_rectangles, n, oo) # n towards infinity
 
 print(area) # 4/3
 ```
+
