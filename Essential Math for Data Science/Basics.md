@@ -330,3 +330,4 @@ area = limit(n_rectangles, n, oo) # n towards infinity
 print(area) # 4/3
 ```
 
+Next Chapter: [[Probabilities]]

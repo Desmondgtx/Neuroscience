@@ -4,9 +4,7 @@
 Clase 1: [[Pre-registro]]
 
 
-
 ### Blinding
-
 
 randomización simple:
 participantes aleatorizados

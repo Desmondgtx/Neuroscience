@@ -6,7 +6,6 @@ Estimar probabilidad de spiking neurons:
 
 
 Fórmula:
-
 $$p[\sigma] = \frac {e^{-H(\sigma)}} {Z}$$
 - redundancia y corrección de errores
 - probabilidad de que una neurona dispare bajo ciertas condiciones

@@ -1,6 +1,8 @@
 
 ## Clase 1 de Estadística avanzada
 
+[[Conceptos Estadística]]
+
 #### Estadística descriptiva
 - Métricas para resumir, organizar, comparar y detectar anomalías
 - Nos sirve para inferir y detectar características de los datos (como distribuciones)

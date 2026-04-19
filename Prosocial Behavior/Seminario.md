@@ -8,6 +8,7 @@
 ## Desadaptación social: 
 - Impone estrés en los sistemas sociales, romper las normas y convenciones establecidas por la sociedad
 
+[[Concepts Prosocial Behavior]]
 
 ## FONDECyT Regular David Huepe
 
@@ -89,7 +90,6 @@ Mayor estrés -> menor interocepción, FE y empatía
 - Contexto de vulnerabilidad afectaría la conducta prosocial
 	- Posible problema en capacidad de cognición social
 	- Se debe disociar capacidad y motivación
-	- 
 
 ### Tarea experimental:
 - Prosocial Effort Task (Self vs Other)

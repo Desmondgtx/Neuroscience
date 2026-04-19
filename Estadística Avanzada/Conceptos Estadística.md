@@ -1,4 +1,3 @@
-
 # Cuadro Comparativo: Conceptos Fundamentales de Estadística
 
 ## 1. Suma de Desviaciones (Sum of Deviations)

@@ -77,7 +77,7 @@ Misma correlación, distintas relaciones funcionales
 
 
 ### Dimensiones
-![[Captura de pantalla 2026-04-07 214245 1.png]]
+![[Dimensionalidad.png]]
 
 - Correlación de dos variables (2 dimensiones)
 - Correlación de tres variables (3 dimensiones)
