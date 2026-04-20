@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"ab144c80dd1d9377","x":-240,"y":-30,"width":250,"height":60,"type":"text","text":"Frontend"},
+		{"id":"c0709535c7571c31","x":-240,"y":160,"width":250,"height":151,"type":"text","text":"Lenguajes:\n- HTLM (estructura)\n- CSS (estilo)\n- JS (comportamiento)"},
+		{"id":"694b303378cf1c65","x":-1500,"y":-30,"width":250,"height":60,"type":"text","text":"Bases de Datos"},
+		{"id":"e15003217ed481d3","x":-871,"y":-30,"width":250,"height":60,"type":"text","text":"Backend"},
+		{"id":"0f65c3144ac4a5d5","x":-1500,"y":-200,"width":250,"height":60,"type":"text","text":"Hosting/Servidores"},
+		{"id":"42feb5b9c214e810","x":-1720,"y":-402,"width":250,"height":60,"type":"text","text":"Self-Hosting"},
+		{"id":"7aac3ea767e3a995","x":-1470,"y":-500,"width":250,"height":158,"type":"text","text":"Cloud \n- Azure\n- Google Server\n- AWS"},
+		{"id":"76e69d8b86dc55f5","x":-1220,"y":-402,"width":250,"height":60,"type":"text","text":"Servicio PaaS"},
+		{"id":"a001bdd42f0a732b","x":-640,"y":140,"width":250,"height":188,"type":"text","text":"Lenguajes:\n- Python\n- JS (node.js)\n- Ruby\n- Go"},
+		{"id":"8a9068adac9d53ee","x":-1919,"y":-255,"width":250,"height":170,"type":"text","text":"Nube personal:\n- Nextcloud\n- Jellyfin (streaming)\n- Plex (streaming)"},
+		{"id":"1884261178bcb897","x":-1055,"y":-255,"width":297,"height":170,"type":"text","text":"Herramientas de investigación:\n- RStudio Server\n- Ubuntu Server\n- Virtual Machin"},
+		{"id":"30a0aa1c1b31bbae","x":-1375,"y":191,"width":250,"height":220,"type":"text","text":"SQL:\n- MySQL\n- PostgreSQL\n- SQLLite\n- Oracle (servicio)\n- SQL Server (servicio)"},
+		{"id":"1e3213eae60f0641","x":-1669,"y":191,"width":250,"height":96,"type":"text","text":"NoSQL:\n- MongoDB"},
+		{"id":"06018bfabec0ea93","x":-871,"y":382,"width":250,"height":59,"type":"text","text":"Frameworks:"},
+		{"id":"1fdb9b6d8677a0cf","x":-871,"y":640,"width":250,"height":191,"type":"text","text":"Frontend frameworks especializados:\n- JSPsych\n- lab.js\n- PsychoJS"},
+		{"id":"11525deae0a523d6","x":-1180,"y":640,"width":250,"height":191,"type":"text","text":"Frontend Frameworks:\n- React\n- Vue\n- Svelte\n- Angular"},
+		{"id":"f9f5283e98be3610","x":-580,"y":640,"width":250,"height":191,"type":"text","text":"Backend frameworks:\n- FastAPI (Python)\n- Django (Python)\n- Flask\n- Express (JS)"}
+	],
+	"edges":[
+		{"id":"3732f812528b70f5","fromNode":"e15003217ed481d3","fromSide":"right","toNode":"ab144c80dd1d9377","toSide":"left","fromEnd":"arrow"},
+		{"id":"02f3b15c3e9d861d","fromNode":"ab144c80dd1d9377","fromSide":"bottom","toNode":"c0709535c7571c31","toSide":"top"},
+		{"id":"f9a950be7c966ad2","fromNode":"e15003217ed481d3","fromSide":"bottom","toNode":"a001bdd42f0a732b","toSide":"top"},
+		{"id":"91aa888f3cc37b1f","fromNode":"e15003217ed481d3","fromSide":"bottom","toNode":"06018bfabec0ea93","toSide":"top"},
+		{"id":"5ff148d93c72704e","fromNode":"e15003217ed481d3","fromSide":"left","toNode":"694b303378cf1c65","toSide":"right","fromEnd":"arrow"},
+		{"id":"4475726f5d13f438","fromNode":"694b303378cf1c65","fromSide":"bottom","toNode":"30a0aa1c1b31bbae","toSide":"top"},
+		{"id":"cf8d3b53dda7d313","fromNode":"694b303378cf1c65","fromSide":"bottom","toNode":"1e3213eae60f0641","toSide":"top"},
+		{"id":"0778666f8dd8dd21","fromNode":"0f65c3144ac4a5d5","fromSide":"top","toNode":"42feb5b9c214e810","toSide":"bottom"},
+		{"id":"08bb7d8a57d0ee3d","fromNode":"0f65c3144ac4a5d5","fromSide":"top","toNode":"7aac3ea767e3a995","toSide":"bottom"},
+		{"id":"a85007af2af2f7f5","fromNode":"0f65c3144ac4a5d5","fromSide":"top","toNode":"76e69d8b86dc55f5","toSide":"bottom"},
+		{"id":"e481fc6b29ca964b","fromNode":"694b303378cf1c65","fromSide":"top","toNode":"0f65c3144ac4a5d5","toSide":"bottom"},
+		{"id":"3bcf9c056deb0250","fromNode":"06018bfabec0ea93","fromSide":"bottom","toNode":"11525deae0a523d6","toSide":"top"},
+		{"id":"2e512c1512e947a3","fromNode":"06018bfabec0ea93","fromSide":"bottom","toNode":"1fdb9b6d8677a0cf","toSide":"top"},
+		{"id":"0eae7ae78c15accd","fromNode":"06018bfabec0ea93","fromSide":"bottom","toNode":"f9f5283e98be3610","toSide":"top"},
+		{"id":"b941d7e26bbeb478","fromNode":"0f65c3144ac4a5d5","fromSide":"left","toNode":"8a9068adac9d53ee","toSide":"right"},
+		{"id":"f5307b6997718747","fromNode":"0f65c3144ac4a5d5","fromSide":"right","toNode":"1884261178bcb897","toSide":"left"}
+	]
+}

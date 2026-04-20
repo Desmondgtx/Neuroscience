@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a70fd0ccea99958b",
+        "id": "b18b21f4f9dd3d87",
         "type": "tabs",
         "children": [
           {
-            "id": "2750352ac984adbb",
+            "id": "ad22a6e13895c1f4",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -193,8 +193,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "2750352ac984adbb",
+  "active": "ad22a6e13895c1f4",
   "lastOpenFiles": [
+    "Web.canvas",
     "Estadística Avanzada/Conceptos Básicos.md",
     "Estadística Avanzada/Conceptos Estadística.md",
     "UV/Taller Neurociencias Computacional.md",
@@ -203,7 +204,6 @@
     "Prosocial Behavior/Seminario.md",
     "UV/RNNs.canvas",
     "Causal Reasoning/Markov Machines.canvas",
-    "Sin título.canvas",
     "Essential Math for Data Science/Basics.md",
     "Essential Math for Data Science/Probabilities.md",
     "Diseños Experimentales/Muestra.md",
