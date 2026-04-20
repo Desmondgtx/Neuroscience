@@ -11,10 +11,17 @@
             "id": "ad22a6e13895c1f4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "canvas",
+              "state": {
+                "file": "Web.canvas",
+                "viewState": {
+                  "x": -339.6660612385652,
+                  "y": 342.72051022671405,
+                  "zoom": -0.15365472945186032
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Web"
             }
           }
         ]
@@ -74,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 239.5,
+    "collapsed": true
   },
   "right": {
     "id": "f053846ac6e8c6e3",
