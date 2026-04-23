@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b18b21f4f9dd3d87",
+        "id": "cff052fe2b551a86",
         "type": "tabs",
         "children": [
           {
-            "id": "ad22a6e13895c1f4",
+            "id": "13916cf7bdd2f08b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Web.canvas",
-                "viewState": {
-                  "x": -339.6660612385652,
-                  "y": 342.72051022671405,
-                  "zoom": -0.15365472945186032
-                }
+                "file": "Estadística Avanzada/Regresión Múltiple.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Web"
+              "icon": "lucide-file",
+              "title": "Regresión Múltiple"
             }
           }
         ]
@@ -81,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5,
-    "collapsed": true
+    "width": 239.5
   },
   "right": {
     "id": "f053846ac6e8c6e3",
@@ -132,12 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Estadística Avanzada/Regresión Múltiple.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Regresión Múltiple"
             }
           },
           {
@@ -187,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
-    "collapsed": true
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,8 +197,11 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "ad22a6e13895c1f4",
+  "active": "13916cf7bdd2f08b",
   "lastOpenFiles": [
+    "Causal Reasoning/FONDECYT Nicolás.md",
+    "Estadística Avanzada/Regresión Múltiple.md",
+    "Estadística Avanzada/Regresión No Lineal.md",
     "Web.canvas",
     "Estadística Avanzada/Conceptos Básicos.md",
     "Estadística Avanzada/Conceptos Estadística.md",
@@ -218,10 +217,8 @@
     "Diseños Experimentales/Pre-registro.md",
     "Pictures/Captura de pantalla 2026-04-19 122211.png",
     "Pictures/Captura de pantalla 2026-04-19 123048.png",
-    "Estadística Avanzada/Regresión No Lineal.md",
     "Pictures/Imagen1.jpg",
     "Pictures/Captura de pantalla 2026-04-19 123901.png",
-    "Estadística Avanzada/Regresión Múltiple.md",
     "Estadística Avanzada/Modelos de Regresión.md",
     "Pictures/Dimensionalidad.png",
     "Captura de pantalla 2026-04-07 214245 1.png.md",
