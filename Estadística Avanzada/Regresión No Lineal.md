@@ -99,7 +99,7 @@ q = 1 (lasso regression): Para valores altos de $\alpha$, fuerza a que muchos co
 ### Ejemplo de regularización:
 - Data Augmentation: se altera un poco los datos para que sea más robusto ante perturbaciones
 
-![[Imagen1.jpg]]
+![[Imagen1 1.jpg]]
 
 
 ### Determinar alpha:
