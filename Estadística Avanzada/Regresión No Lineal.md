@@ -117,6 +117,4 @@ q = 1 (lasso regression): Para valores altos de $\alpha$, fuerza a que muchos co
 	- Validación cruzada
 
 
-
-
 Clase 4:  [[Regresión Múltiple]]

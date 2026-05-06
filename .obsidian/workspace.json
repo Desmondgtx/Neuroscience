@@ -11,10 +11,14 @@
             "id": "13916cf7bdd2f08b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Computational Modeling of Cognition and Behavior/Computational Modeling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Computational Modeling"
             }
           }
         ]
@@ -124,12 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Computational Modeling of Cognition and Behavior/Computational Modeling.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Computational Modeling"
             }
           },
           {
@@ -179,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
-    "collapsed": true
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,14 +199,19 @@
   },
   "active": "13916cf7bdd2f08b",
   "lastOpenFiles": [
-    "Sin título.canvas",
+    "Estadística Avanzada/Distribuciones.md",
     "Estadística Avanzada/Optimización de parámetros.md",
+    "Estadística Avanzada/Modelos No Supervisados.md",
+    "Estadística Avanzada/Regresión Múltiple.md",
+    "Estadística Avanzada/Regresión No Lineal.md",
+    "Estadística Avanzada/Modelos de Regresión.md",
+    "Pictures/Area Under the Curve Rectangles.png",
+    "Pictures/Area Under the Curve.png",
+    "Sin título.canvas",
     "Pictures/Captura de pantalla 2026-05-01 193951.png",
     "Pictures/Captura de pantalla 2026-05-01 193858.png",
-    "Estadística Avanzada/Regresión Múltiple.md",
     "Pictures/making-sense-of-the-roc-curve-v0-6zkx70alsv0e1 (1).webp",
     "Pictures/mtimfxh.png",
-    "Estadística Avanzada/Regresión No Lineal.md",
     "Pictures/Imagen1 1.jpg",
     "Captura de pantalla 2026-04-25 173041.png",
     "Pictures/Especificidad y Sensibilidad.png",
@@ -221,11 +230,7 @@
     "Diseños Experimentales/Muestra.md",
     "Diseños Experimentales/Pre-registro.md",
     "Pictures/Captura de pantalla 2026-04-19 122211.png",
-    "Pictures/Captura de pantalla 2026-04-19 123048.png",
-    "Pictures/Imagen1.jpg",
-    "Estadística Avanzada/Modelos de Regresión.md",
     "Captura de pantalla 2026-04-07 214245 1.png.md",
-    "Estadística Avanzada/Distribuciones.md",
     "Computational Modeling of Cognition and Behavior/Parameters.md",
     "Computational Modeling of Cognition and Behavior/Chapter 2.md",
     "Essential Math for Data Science/Probability.md",
@@ -233,7 +238,6 @@
     "Computational Modeling of Cognition and Behavior/Chapter 3.md",
     "Computational Modeling of Cognition and Behavior/Chapter 1.md",
     "Computational Modeling of Cognition and Behavior/Verbal Theorizing.md",
-    "Computational Modeling of Cognition and Behavior/Residual Mean-Squared Deviation.md",
     "Essential Math for Data Science",
     "Diseños Experimentales",
     "UV/fMRI - BOLD.canvas",

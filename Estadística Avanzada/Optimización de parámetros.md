@@ -128,4 +128,4 @@ $|T|$ = Número d ehojas
 
 
 
-Clase 6: [[]]
+Clase 6: [[Modelos No Supervisados]]
