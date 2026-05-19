@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estadística Avanzada/Sin título 1.md",
+                "file": "Prosocial Behavior/Concepts Prosocial Behavior.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sin título 1"
+              "title": "Concepts Prosocial Behavior"
             }
           }
         ]
@@ -198,10 +198,19 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "13916cf7bdd2f08b",
+  "active": "8295777054cfe80c",
   "lastOpenFiles": [
-    "Pictures/making-sense-of-the-roc-curve-v0-6zkx70alsv0e1 (1).webp",
+    "Prosocial Behavior/Lockwod et al., 2016.md",
+    "Prosocial Behavior/Seminario.md",
+    "Algorithms and Data Structures/OOP.md",
+    "Algorithms and Data Structures/Basics Python.md",
+    "Diseños Experimentales/Pre-registro.md",
+    "Diseños Experimentales/Muestra.md",
+    "UV/RNNs.canvas",
+    "UV/Taller Neurociencias Computacional.md",
+    "Causal Reasoning/Web.canvas",
     "Estadística Avanzada/Sin título 1.md",
+    "Pictures/making-sense-of-the-roc-curve-v0-6zkx70alsv0e1 (1).webp",
     "Estadística Avanzada/Sin título.md",
     "Estadística Avanzada/Modelos No Supervisados.md",
     "Estadística Avanzada/Optimización de parámetros.md",
@@ -220,25 +229,16 @@
     "Captura de pantalla 2026-04-25 173041.png",
     "Pictures/Especificidad y Sensibilidad.png",
     "Causal Reasoning/FONDECYT Nicolás.md",
-    "Web.canvas",
     "Estadística Avanzada/Conceptos Básicos.md",
     "Estadística Avanzada/Conceptos Estadística.md",
-    "UV/Taller Neurociencias Computacional.md",
     "Prosocial Behavior/Concepts Prosocial Behavior.md",
-    "Prosocial Behavior/Lockwod et al., 2016.md",
-    "Prosocial Behavior/Seminario.md",
-    "UV/RNNs.canvas",
     "Causal Reasoning/Markov Machines.canvas",
     "Essential Math for Data Science/Basics.md",
     "Essential Math for Data Science/Probabilities.md",
-    "Diseños Experimentales/Muestra.md",
-    "Diseños Experimentales/Pre-registro.md",
     "Pictures/Captura de pantalla 2026-04-19 122211.png",
     "Captura de pantalla 2026-04-07 214245 1.png.md",
     "Computational Modeling of Cognition and Behavior/Parameters.md",
     "Computational Modeling of Cognition and Behavior/Chapter 2.md",
-    "Essential Math for Data Science/Probability.md",
-    "Estadística Avanzada/Regresión Lineal.md",
     "Essential Math for Data Science",
     "Diseños Experimentales",
     "UV/fMRI - BOLD.canvas",

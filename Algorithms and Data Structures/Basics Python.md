@@ -211,4 +211,4 @@ np.array == numpy.array
 ```
 
 
-Chapter 3: [[OOP]]
+Chapter 2: [[OOP]]
