@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computational Modeling of Cognition and Behavior/Computational Modeling.md",
+                "file": "Estadística Avanzada/Sin título 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computational Modeling"
+              "title": "Sin título 1"
             }
           }
         ]
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computational Modeling of Cognition and Behavior/Computational Modeling.md",
+                "file": "Estadística Avanzada/Sin título 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Computational Modeling"
+              "title": "Esquema de Sin título 1"
             }
           },
           {
@@ -159,11 +159,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "288b9f667df52ea3",
@@ -184,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 324.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,9 +200,13 @@
   },
   "active": "13916cf7bdd2f08b",
   "lastOpenFiles": [
-    "Estadística Avanzada/Distribuciones.md",
-    "Estadística Avanzada/Optimización de parámetros.md",
+    "Pictures/making-sense-of-the-roc-curve-v0-6zkx70alsv0e1 (1).webp",
+    "Estadística Avanzada/Sin título 1.md",
+    "Estadística Avanzada/Sin título.md",
     "Estadística Avanzada/Modelos No Supervisados.md",
+    "Estadística Avanzada/Optimización de parámetros.md",
+    "Computational Modeling of Cognition and Behavior/Computational Modeling.md",
+    "Estadística Avanzada/Distribuciones.md",
     "Estadística Avanzada/Regresión Múltiple.md",
     "Estadística Avanzada/Regresión No Lineal.md",
     "Estadística Avanzada/Modelos de Regresión.md",
@@ -210,7 +215,6 @@
     "Sin título.canvas",
     "Pictures/Captura de pantalla 2026-05-01 193951.png",
     "Pictures/Captura de pantalla 2026-05-01 193858.png",
-    "Pictures/making-sense-of-the-roc-curve-v0-6zkx70alsv0e1 (1).webp",
     "Pictures/mtimfxh.png",
     "Pictures/Imagen1 1.jpg",
     "Captura de pantalla 2026-04-25 173041.png",
@@ -235,9 +239,6 @@
     "Computational Modeling of Cognition and Behavior/Chapter 2.md",
     "Essential Math for Data Science/Probability.md",
     "Estadística Avanzada/Regresión Lineal.md",
-    "Computational Modeling of Cognition and Behavior/Chapter 3.md",
-    "Computational Modeling of Cognition and Behavior/Chapter 1.md",
-    "Computational Modeling of Cognition and Behavior/Verbal Theorizing.md",
     "Essential Math for Data Science",
     "Diseños Experimentales",
     "UV/fMRI - BOLD.canvas",
