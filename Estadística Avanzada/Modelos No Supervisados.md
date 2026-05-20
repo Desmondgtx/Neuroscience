@@ -52,9 +52,9 @@ Los componentes principales son una combinación lineal de los features original
 
 ## Motivación
 Es más fácil conseguir datos y más barato, es más que nada data generada con una máquina (no hay que pagarle a alguien para identificar clases o chequear el output)
-
 - Minimizar distancia intra-cluster
 - Maximiar distancia entre-cluster
+
 
 Clustering - diferencia con PCA
 - Reducir dimensión maximizando la varianza
@@ -103,4 +103,4 @@ Desventajas
 - No se puede aplicar a data categórica
 
 
-
+Clase 7: [[Análisis Factorial Exploratorio]]

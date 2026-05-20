@@ -1,5 +1,8 @@
 
-## Clase 8:
+## Clase 8 de Estadística Avanzada
 
-Clase 7: [[Sin título]]
+Clase 7: [[Análisis Factorial Exploratorio]]
 
+
+
+Tarea
