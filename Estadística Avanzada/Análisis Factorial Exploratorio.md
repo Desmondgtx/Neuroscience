@@ -80,8 +80,7 @@ Cov(i,j) = Covarianza entre el indicador i y el indicador j
 
 ## Reducción de Dimensionalidad
 
-[imagen]
-
+![[Captura de pantalla 2026-05-21 150220.png]]
 
 El objetivo principal del EFA es **simplificar la estructura de los datos** transformando un conjunto de variables observadas en un número menor de **variables latentes o factores**. Este proceso se visualiza matemáticamente como la **proyección de vectores** de un espacio de alta dimensión a uno de menor dimensión.
 

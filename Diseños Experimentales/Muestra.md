@@ -4,137 +4,107 @@
 Clase 1: [[Pre-registro]]
 
 
-### Blinding
+## Blinding
 
-randomización simple:
-participantes aleatorizados
+### Randomización simple:
+- Participantes aleatorizados
 
+### Randomización por bloque:
+- Segmentar a la población y luego asignar los participantes a los grupos
+- Balancear los grupos
 
-randomización por bloque:
-segmentar a la población y luego asignar los participantes a los grupos
-balancear los grupos
+### Randomización estratificada:
+- La población se divide en estratos (factores apropiados)
+- Luego los estratos se dividen en sub grupos
 
-
-randomización estratificada:
-la población se divide en estratos (factores apropiados)
-luego los estratos se dividen en sub grupos
-
-randomización adaptativa covariada:
-tener en cuenta los participantes que ya tengo el los grupos para luego asignar nuevos participantes
+### Randomización adaptativa covariada:
+- Tener en cuenta los participantes que ya tengo el los grupos para luego asignar nuevos participantes
 
 
 
-### Sampling
-población del sampleo
-método de reclutamiento
+## Sampling
+### Población del sampleo
+- Criterios de inclusión 
+	- Qué población me interesa
+- Criterios de exclusión 
+	- Quienes no pueden participar)
+	- Criterios éticos
+	- Medicación que utiliza determinado participante
+- Criterios de reclutamiento
+	- Qué población termino estudiado
+
+![[Captura de pantalla 2026-05-21 150558.png]]
+
+Donde:
+a) Sujetos reclutados
+b) Sujetos que podría haber reclutado
+c) Se reclutaron pero se excluyeron
+d) Podría haber reclutado pero huiese excluido igualmente
+e) No participaron ni podrían participar
 
 
 
-
-
-criterios de inclusión: (qué población me interesa)
-- 
-- 
-
-
-
-criterios de exclusión: (quienes no pueden participar)
-- criterios éticos
-- medicación que utiliza determinado participante
-
-
-criterios de reclutamiento: (qué población termino estudiado)
-
-
-
-
-
-
-Como determinar el tamaño de la muestra
+## Como determinar el tamaño de la muestra}
 
 **Potencia:** probabilidad de rechazar H0 solo si H1 es verdadera
-p - value nos demuestra la relación entre H0 y H1
+**P - value:** nos demuestra la relación entre H0 y H1
 
-depende de:
-- tamaño de la muestra
-- tamaño del efecto
-d de Cohen:
+### D de Cohen:
+Fórmula:
 $$d = \frac{\mu_1 - \mu_2}{\sigma}$$
 
 d = distancia entre las medias de las poblaciones
 
+![[Captura de pantalla 2026-05-21 151116.png]]
 
-los procedimientos de medición
-los procedimientos de análisis
-
-
-el tipo de comparación (una cola o dos colas)
-el nivel de significancia ()
-
-
-
-correcciones:
-desde que tengo los p-value
-más estricto (evita tener error tipo 1)
-reducción de alpha
+Depende de:
+- Tamaño de la muestra
+- Tamaño del efecto
+- Los procedimientos de medición
+- Los procedimientos de análisis
+- El tipo de comparación (una cola o dos colas)
+- El nivel de significancia (p-value)
 
 
-
-Para determinar el tamaño muestral:
-1) decidir cual es la potencia estadística deseada
+### Determinar el tamaño muestral:
+1) Decidir cual es la potencia estadística deseada
 2) Decidir cual es el nivel de significancia
 3) Estimar el tamaño del efecto
 	- statsmodels (python library)
-
-
-
-
-especificar:
-- reglas para dejar de medir
-
-
-### Variables
-
-variables manipuladas
-variables medidas
+	- GPower
 
 
 ### Plan de análisis
-
-especificar:
-- qué modelo voy a usar
-- cual va a ser la variable dependiente
-- cual va a ser la variable independiente (tratmiento)
-- cuales van a ser los covariados
-- como voy a verificar que se cumplan las hipótesis del modelo
-- qué parte de los resultados del modelo voy a mirar
-
+Especificar:
+- Qué modelo voy a usar
+- Cual va a ser la variable dependiente
+- Cual va a ser la variable independiente (tratmiento)
+- Cuales van a ser los covariados
+- Como voy a verificar que se cumplan las hipótesis del modelo
+- Qué parte de los resultados del modelo voy a mirar
 
 
-transformaciones de variables
-criterio de inferencia
-inclusión y exclusión de datos
-data invalida
+### Tener en consideración
+- Transformaciones de variables
+- Criterio de inferencia
+- Inclusión y exclusión de datos
+- Data invalida
 
 
-
-
-
-
-harking (hipotesis posterior a los resultados)
-
-p-hacking (modificar el p-value)
+### Malas prácticas
+- Harking (hipotesis posterior a los resultados)
+- P-hacking (modificar el p-value)
 
 
 
+## Tarea
 
+OSF: Pre - registro
 
-
-OSF: Preregistro
-
-Hipótesis
-Análisis primario
-Test de hipótesis
+Incluyendo:
+- Hipótesis
+- Análisis primario
+- Test de hipótesis
 
 
 

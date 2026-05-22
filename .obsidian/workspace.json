@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cff052fe2b551a86",
+        "id": "446005cb6bd083d1",
         "type": "tabs",
         "children": [
           {
-            "id": "13916cf7bdd2f08b",
+            "id": "2ccd6bbcdedf87af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,12 +188,17 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "13916cf7bdd2f08b",
+  "active": "2ccd6bbcdedf87af",
   "lastOpenFiles": [
-    "Estadística Avanzada/Modelos No Supervisados.md",
+    "Diseños Experimentales/Muestra.md",
+    "Pictures/Captura de pantalla 2026-05-21 151116.png",
+    "Pictures/Captura de pantalla 2026-05-21 150558.png",
+    "Diseños Experimentales/Pre-registro.md",
     "Estadística Avanzada/Análisis Factorial Exploratorio.md",
-    "Estadística Avanzada/Modelos de Regresión.md",
+    "Pictures/Captura de pantalla 2026-05-21 150220.png",
     "Estadística Avanzada/Sin título 1.md",
+    "Estadística Avanzada/Modelos No Supervisados.md",
+    "Estadística Avanzada/Modelos de Regresión.md",
     "Estadística Avanzada/Optimización de parámetros.md",
     "Estadística Avanzada/Conceptos Básicos.md",
     "Estadística Avanzada/Regresión No Lineal.md",
@@ -208,8 +213,6 @@
     "Prosocial Behavior/Seminario.md",
     "Algorithms and Data Structures/OOP.md",
     "Algorithms and Data Structures/Basics Python.md",
-    "Diseños Experimentales/Pre-registro.md",
-    "Diseños Experimentales/Muestra.md",
     "UV/RNNs.canvas",
     "UV/Taller Neurociencias Computacional.md",
     "Causal Reasoning/Web.canvas",
@@ -223,14 +226,10 @@
     "Pictures/Captura de pantalla 2026-05-01 193858.png",
     "Pictures/mtimfxh.png",
     "Pictures/Imagen1 1.jpg",
-    "Captura de pantalla 2026-04-25 173041.png",
-    "Pictures/Especificidad y Sensibilidad.png",
     "Causal Reasoning/FONDECYT Nicolás.md",
     "Estadística Avanzada/Conceptos Estadística.md",
     "Causal Reasoning/Markov Machines.canvas",
     "Essential Math for Data Science/Basics.md",
-    "Essential Math for Data Science/Probabilities.md",
-    "Pictures/Captura de pantalla 2026-04-19 122211.png",
     "Essential Math for Data Science",
     "Diseños Experimentales",
     "UV/fMRI - BOLD.canvas",
