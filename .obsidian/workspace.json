@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estadística Avanzada/Sin título 1.md",
+                "file": "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sin título 1"
+              "title": "Modelamiento de Ecuaciones Estructurales"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 310.5,
+    "collapsed": true
   },
   "right": {
     "id": "f053846ac6e8c6e3",
@@ -128,13 +129,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estadística Avanzada/Sin título 1.md",
+                "file": "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Sin título 1"
+              "title": "Esquema de Modelamiento de Ecuaciones Estructurales"
             }
           },
           {
@@ -190,13 +191,16 @@
   },
   "active": "2ccd6bbcdedf87af",
   "lastOpenFiles": [
+    "Estadística Avanzada/Análisis Factorial Exploratorio.md",
+    "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
+    "Estadística Avanzada/Tarea EFA.md",
+    "Estadística Avanzada/Aplicación EFA.md",
+    "Pictures/Captura de pantalla 2026-05-22 134905.png",
+    "Diseños Experimentales/Pre-registro.md",
     "Diseños Experimentales/Muestra.md",
     "Pictures/Captura de pantalla 2026-05-21 151116.png",
     "Pictures/Captura de pantalla 2026-05-21 150558.png",
-    "Diseños Experimentales/Pre-registro.md",
-    "Estadística Avanzada/Análisis Factorial Exploratorio.md",
     "Pictures/Captura de pantalla 2026-05-21 150220.png",
-    "Estadística Avanzada/Sin título 1.md",
     "Estadística Avanzada/Modelos No Supervisados.md",
     "Estadística Avanzada/Modelos de Regresión.md",
     "Estadística Avanzada/Optimización de parámetros.md",
@@ -225,11 +229,8 @@
     "Pictures/Captura de pantalla 2026-05-01 193951.png",
     "Pictures/Captura de pantalla 2026-05-01 193858.png",
     "Pictures/mtimfxh.png",
-    "Pictures/Imagen1 1.jpg",
     "Causal Reasoning/FONDECYT Nicolás.md",
-    "Estadística Avanzada/Conceptos Estadística.md",
     "Causal Reasoning/Markov Machines.canvas",
-    "Essential Math for Data Science/Basics.md",
     "Essential Math for Data Science",
     "Diseños Experimentales",
     "UV/fMRI - BOLD.canvas",

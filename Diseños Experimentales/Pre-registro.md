@@ -34,12 +34,10 @@ Es imposible decidir sobre las implicaciones éticas de los propios experimentos
 - Buscar la aprobación de un comité de ética en investigación científica
 
 
-
 ### Pre-registro
 - Los revisores no pueden cuestionar tanto los resultados
 - Si el diseño está bien elegido y pre-registrado, no lo pueden cuestionar
 - Si los análisis están bien elegidos y pre-registrados, no los pueden cuestionar
-
 
 
 ### Tipos de estudio

@@ -107,4 +107,4 @@ Minimizar el error entre correlación original y proyectada
 
 
 
-Clase 8: [[Sin título 1]]
+Clase 8: [[Aplicación EFA]]
