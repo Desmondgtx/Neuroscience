@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
+                "file": "Estadística Avanzada/Tarea EFA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modelamiento de Ecuaciones Estructurales"
+              "title": "Tarea EFA"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "f053846ac6e8c6e3",
@@ -191,8 +190,8 @@
   },
   "active": "2ccd6bbcdedf87af",
   "lastOpenFiles": [
-    "Estadística Avanzada/Análisis Factorial Exploratorio.md",
     "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
+    "Estadística Avanzada/Análisis Factorial Exploratorio.md",
     "Estadística Avanzada/Tarea EFA.md",
     "Estadística Avanzada/Aplicación EFA.md",
     "Pictures/Captura de pantalla 2026-05-22 134905.png",
