@@ -11,10 +11,14 @@
             "id": "2ccd6bbcdedf87af",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Estadística Avanzada/Tarea EFA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tarea EFA"
             }
           }
         ]
@@ -186,7 +190,9 @@
   },
   "active": "2ccd6bbcdedf87af",
   "lastOpenFiles": [
+    "Pasted image 20260524224838.png",
     "Estadística Avanzada/Tarea EFA.md",
+    "Pasted image 20260524225213.png",
     "Estadística Avanzada/Tarea EFA Claude.md",
     "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
     "Estadística Avanzada/Análisis Factorial Exploratorio.md",
@@ -223,9 +229,6 @@
     "Pictures/Area Under the Curve.png",
     "Sin título.canvas",
     "Pictures/Captura de pantalla 2026-05-01 193951.png",
-    "Pictures/Captura de pantalla 2026-05-01 193858.png",
-    "Pictures/mtimfxh.png",
-    "Causal Reasoning/FONDECYT Nicolás.md",
     "Causal Reasoning/Markov Machines.canvas",
     "Essential Math for Data Science",
     "Diseños Experimentales",

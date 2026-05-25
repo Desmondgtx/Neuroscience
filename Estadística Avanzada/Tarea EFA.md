@@ -4,7 +4,7 @@ Usando los datos del archivo SPSS Datos_Tareas_2026.sav (o bien, el mismo archiv
 Debe entregar un informe impreso (y también en un archivo PDF) que describa lo que efectuó y sus resultados, discutiendo brevemente los resultados. El informe debe permitir reproducir los análisis efectuados y los resultados obtenidos. 
 
 
-
+![[Pasted image 20260524225213.png]]
 
 ## Pasos en SPSS (interfaz gráfica)
 
