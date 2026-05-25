@@ -11,14 +11,10 @@
             "id": "2ccd6bbcdedf87af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estadística Avanzada/Tarea EFA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tarea EFA"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -190,9 +186,10 @@
   },
   "active": "2ccd6bbcdedf87af",
   "lastOpenFiles": [
+    "Estadística Avanzada/Tarea EFA.md",
+    "Estadística Avanzada/Tarea EFA Claude.md",
     "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
     "Estadística Avanzada/Análisis Factorial Exploratorio.md",
-    "Estadística Avanzada/Tarea EFA.md",
     "Estadística Avanzada/Aplicación EFA.md",
     "Pictures/Captura de pantalla 2026-05-22 134905.png",
     "Diseños Experimentales/Pre-registro.md",

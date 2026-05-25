@@ -4,82 +4,162 @@ Usando los datos del archivo SPSS Datos_Tareas_2026.sav (o bien, el mismo archiv
 Debe entregar un informe impreso (y también en un archivo PDF) que describa lo que efectuó y sus resultados, discutiendo brevemente los resultados. El informe debe permitir reproducir los análisis efectuados y los resultados obtenidos. 
 
 
-# Guía Paso a Paso: Análisis Factorial Exploratorio (EFA) en SPSS
-Preparación: Identificación de Variables e Indicadores
 
-Para este análisis, trabajarás con las siguientes dimensiones medidas en escala Likert de 1 a 7:
 
-- **Predictores (IV):**
-    - **Uso de armas (PUA)**: `PUA_1`, `PUA_2`, `PUA_3`.
-    - **Bandas organizadas (PBD)**: `PBD_1`, `PBD_2`, `PBD_3`.
-    - **Violencia en delitos (PVD)**: `PVD_1`, `PVD_2`, `PVD_3`.
-    - **Eficacia policial (PEP)**: `PEP_1`, `PEP_2`, `PEP_3`.
-- **Variable Predicha (DV):**
-    - **Percepción de inseguridad (PIN)**: `PIN_1`, `PIN_2`, `PIN_3`.
+## Pasos en SPSS (interfaz gráfica)
 
---------------------------------------------------------------------------------
+> Guía de clics para reproducir todos los análisis de la Tarea 1 (EFA) del curso de Estadística Avanzada. Datos: `Datos_Tareas_2026.sav` · N = 225 · escala Likert 1–7. Variables: PUA (1–3), PBD (1–3), PVD (1–3), PEP (1–3) = predictoras · PIN (1–3) = predicha.
 
-2. Paso 1: Análisis Descriptivo y de Normalidad
+---
 
-Antes de extraer factores, debes verificar la calidad de los datos para los 15 indicadores.
+## A. Análisis descriptivo
 
-1. Ve a `Analizar` > `Estadísticos descriptivos` > `Descriptivos`.
-2. Selecciona todos los indicadores (`PUA_1` al `PIN_3`).
-3. En `Opciones`, marca **Media**, **Desviación estándar**, **Mínimo** y **Máximo**.
-    - _Objetivo:_ Confirmar que se usó toda la amplitud de la escala (1 a 7) y detectar posibles sesgos.
-4. Ve a `Analizar` > `Estadísticos descriptivos` > `Frecuencias`. Pulsa `Gráficos` y elige **Histogramas** con la opción **Mostrar curva normal**.
+1. `Analizar` > `Estadísticos descriptivos` > `Descriptivos`.
+2. Pasa los **15 indicadores** (PUA_1-3, PBD_1-3, PVD_1-3, PEP_1-3, PIN_1-3) al cuadro de variables.
+3. Botón `Opciones`: marca `Media`, `Desviación estándar`, `Mínimo`, `Máximo`. (Deja **sin** marcar asimetría y curtosis.)
+4. `Continuar` > `Aceptar`.
 
---------------------------------------------------------------------------------
+---
 
-3. Paso 2: Análisis Factorial Exploratorio (EFA)
+## B. Normalidad
 
-**Regla de oro:** No mezcles predictores con la variable predicha. Debes hacer el proceso por separado para respetar la causalidad teórica.
+### B.1 Histogramas con curva normal
 
-A. EFA de las Variables Predictoras (12 indicadores)
+1. `Analizar` > `Estadísticos descriptivos` > `Frecuencias`.
+2. Pasa los 15 indicadores.
+3. Botón `Gráficos` > marca `Histogramas` y `Mostrar curva normal en el histograma`.
+4. `Continuar` > `Aceptar`.
 
-1. Ve a `Analizar` > `Reducción de dimensiones` > `Factor`.
-2. Introduce los 12 indicadores predictores (`PUA_1-3`, `PBD_1-3`, `PVD_1-3`, `PEP_1-3`).
-3. **Descriptivos:** Marca **KMO y prueba de esfericidad de Bartlett**.
-4. **Extracción:**
-    - Método: **Factorización de ejes principales (PAF)**.
-    - Marca: **Gráfico de sedimentación (Scree Plot)**.
-    - Mantener: **Basado en autovalor (eigenvalue) mayor que 1**.
-    - _Nota:_ Si el análisis no arroja los 4 factores esperados, puedes forzar la extracción a "4" en esta misma ventana.
-5. **Rotación:** Selecciona **Varimax** y marca **Solución rotada**.
-6. **Interpretación:** Revisa la **Matriz de factores rotados**. Los indicadores deberían agruparse en sus constructos (ej. los 3 de PUA en un factor).
+### B.2 Gráficos Q-Q
 
-B. EFA de la Variable Predicha (3 indicadores)
+1. `Analizar` > `Estadísticos descriptivos` > `Gráficos Q-Q`.
+2. Pasa los 15 indicadores.
+3. Deja la distribución de prueba en `Normal` (valor por defecto).
+4. `Aceptar`.
 
-1. Repite el proceso anterior, pero solo con los indicadores `PIN_1`, `PIN_2` y `PIN_3`.
-2. Se espera que carguen en un único factor de "Inseguridad".
+---
 
---------------------------------------------------------------------------------
+## C. Fiabilidad (Alfa de Cronbach) — repetir 5 veces
 
-4. Paso 3: Análisis de Confiabilidad (Alfa de Cronbach)
+> Una corrida por escala: PVD, PIN, PUA, PBD, PEP.
 
-Debes verificar que cada grupo de indicadores mide su constructo de forma consistente (α≥0.70).
+1. `Analizar` > `Escala` > `Análisis de fiabilidad`.
+2. Introduce los **3 ítems de una escala** (p. ej. PVD_1, PVD_2, PVD_3).
+3. Modelo: `Alfa`.
+4. Botón `Estadísticos`: en _Descriptivos para_ marca `Elemento`, `Escala` y `Escala si se elimina el elemento`; en _Inter-elementos_ marca `Correlaciones`.
+5. `Continuar` > `Aceptar`.
+6. **Repite** los pasos 1–5 para PIN, PUA, PBD y PEP.
 
-1. Ve a `Analizar` > `Escala` > `Análisis de fiabilidad`.
-2. Realiza la prueba **cinco veces** (una por cada constructo):
-    - Para PUA (3 ítems).
-    - Para PBD (3 ítems).
-    - Para PVD (3 ítems).
-    - Para PEP (3 ítems).
-    - Para PIN (3 ítems).
+---
 
---------------------------------------------------------------------------------
+## D. EFA de las variables predictoras (12 indicadores) — PAF + Kaiser
 
-5. Paso 4: Creación de Variables (Promedios)
+1. `Analizar` > `Reducción de dimensiones` > `Factor`.
+2. Introduce los **12 indicadores predictores** (PUA_1-3, PBD_1-3, PVD_1-3, PEP_1-3). **No incluyas PIN.**
+3. Botón `Descriptivos`: marca `Solución inicial` y, en _Adecuación del muestreo_, `KMO y prueba de esfericidad de Bartlett`. > `Continuar`.
+4. Botón `Extracción`:
+    - Método: `Factorización de eje principal`.
+    - En _Extraer_: selecciona `Basado en autovalor` con `Autovalores mayores que: 1`.
+    - Marca `Gráfico de sedimentación`. > `Continuar`.
+5. Botón `Rotación`: marca `Varimax` y `Solución rotada`. > `Continuar`.
+6. `Aceptar`.
 
-Una vez validados, convierte los indicadores en variables únicas para el futuro modelo causal.
+---
 
-1. Ve a `Transformar` > `Calcular variable`.
-2. Variable de destino: `Media_Inseguridad` (ejemplo).
-3. Expresión numérica: `MEAN(PIN_1, PIN_2, PIN_3)`.
-4. Repite para las otras 4 dimensiones (Uso de armas, Bandas, Violencia y Eficacia Policial).
+## E. EFA de las predictoras — Máxima Verosimilitud (ML)
 
---------------------------------------------------------------------------------
+> Igual que D, pero cambia el método de extracción. Esto añade la **prueba de bondad de ajuste** (chi-cuadrado).
 
-6. Sugerencia Teórica Importante para el Informe
+1. `Analizar` > `Reducción de dimensiones` > `Factor`.
+2. Mismos 12 indicadores predictores.
+3. Botón `Descriptivos`: `KMO y prueba de esfericidad de Bartlett`, `Solución inicial`, y opcionalmente `Descriptivos univariados`. > `Continuar`.
+4. Botón `Extracción`: Método = `Máxima verosimilitud`; `Autovalores mayores que 1`. > `Continuar`.
+5. Botón `Rotación`: `Varimax` + `Solución rotada`. > `Continuar`.
+6. `Aceptar`.
 
-El profesor destaca en las instrucciones que **podría haber una cadena de relación** entre los predictores. Antes de redactar tus conclusiones, reflexiona sobre si la percepción del "Uso de armas" y las "Bandas" en realidad causan la percepción de "Violencia", y si esta última es la que finalmente impacta en la "Inseguridad". Debes apoyar esta lógica con literatura
+---
+
+## F. (Opcional) EFA forzado a 4 factores — análisis de sensibilidad
+
+> Para justificar teóricamente los 4 constructos postulados. Solo cambia el criterio de extracción.
+
+1. `Analizar` > `Reducción de dimensiones` > `Factor`.
+2. Mismos 12 indicadores predictores.
+3. Botón `Descriptivos`: `KMO y Bartlett`. > `Continuar`.
+4. Botón `Extracción`:
+    - Método: `Factorización de eje principal` (o ML, para ser consistente con E).
+    - En _Extraer_: selecciona `Número fijo de factores` y escribe `4`.
+    - > `Continuar`.
+        
+5. Botón `Rotación`: `Varimax` + `Solución rotada`. > `Continuar`.
+6. `Aceptar`.
+
+---
+
+## G. EFA de la variable predicha PIN (3 indicadores)
+
+1. `Analizar` > `Reducción de dimensiones` > `Factor`.
+2. Introduce **solo PIN_1, PIN_2, PIN_3**.
+3. Botón `Descriptivos`: `KMO y Bartlett`, `Solución inicial`. > `Continuar`.
+4. Botón `Extracción`: `Factorización de eje principal`, `Autovalores mayores que 1`. > `Continuar`.
+5. Botón `Rotación`: `Varimax`. > `Continuar`.
+6. `Aceptar`.
+
+> Resultado esperado: **un solo factor**. SPSS avisará que "la solución no se puede rotar" — esto es **normal y esperado** cuando hay un único factor, no es un error.
+
+---
+
+## H. Crear las variables-promedio de cada constructo
+
+> Una variable nueva por constructo, promediando sus 3 ítems.
+
+1. `Transformar` > `Calcular variable`.
+2. _Variable de destino_: escribe el nombre (p. ej. `PVD`).
+3. _Expresión numérica_: `MEAN(PVD_1, PVD_2, PVD_3)`.
+4. `Aceptar`.
+5. Repite para: `PUA = MEAN(PUA_1,PUA_2,PUA_3)`, `PBD = MEAN(PBD_1,PBD_2,PBD_3)`, `PEP = MEAN(PEP_1,PEP_2,PEP_3)`, `PIN = MEAN(PIN_1,PIN_2,PIN_3)`.
+
+> Para el modelo de 1 predictor combinado (`VD_v2`), también: `VD_v2 = MEAN(PUA, PBD, PVD)` (promedio de las tres predictoras de "amenaza").
+
+---
+
+## I. Regresión lineal — los 3 modelos OLS
+
+> En las tres, la **dependiente** es siempre `PIN`. Cambian solo los predictores.
+
+### Pasos comunes (interfaz)
+
+1. `Analizar` > `Regresión` > `Lineales`.
+2. _Dependiente_: `PIN`.
+3. _Independientes_: según el modelo (ver abajo).
+4. Botón `Estadísticos`: marca `Estimaciones` y `Ajuste del modelo`. > `Continuar`.
+5. `Aceptar`.
+
+### Gráfico de dispersión (para cada regresión, menos la última si prefieres)
+
+1. `Gráficos` > `Cuadros de diálogo antiguos` > `Dispersión/Puntos` > `Dispersión simple` > `Definir`.
+2. _Eje Y_: `PIN`. _Eje X_: el predictor (o el promedio combinado).
+3. `Aceptar`.
+
+### Modelo 1 — Las 4 predictoras
+
+- _Independientes_: `PVD`, `PUA`, `PBD`, `PEP`.
+
+### Modelo 2 — Solo las 3 de "amenaza" (sin PEP)
+
+- _Independientes_: `PVD`, `PUA`, `PBD`.
+
+### Modelo 3 — Predictor único combinado
+
+- _Independiente_: `VD_v2` (= promedio de PUA, PBD, PVD).
+
+---
+
+## Resumen del flujo
+
+```
+Descriptivos → Normalidad (hist + Q-Q) → Fiabilidad (5 alfas)
+   → EFA predictoras [PAF Kaiser] → EFA predictoras [ML]
+   → (opcional EFA 4 factores) → EFA PIN
+   → Variables-promedio → 3 Regresiones OLS
+```
