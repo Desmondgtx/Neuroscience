@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2ccd6bbcdedf87af",
+            "id": "79961bafb0aca365",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estadística Avanzada/Tarea EFA.md",
+                "file": "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tarea EFA"
+              "title": "Modelamiento de Ecuaciones Estructurales"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 310.5,
+    "collapsed": true
   },
   "right": {
     "id": "f053846ac6e8c6e3",
@@ -188,25 +189,26 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "2ccd6bbcdedf87af",
+  "active": "79961bafb0aca365",
   "lastOpenFiles": [
-    "Pasted image 20260524224838.png",
+    "Captura de pantalla 2026-05-26 122811.png",
     "Estadística Avanzada/Tarea EFA.md",
-    "Pasted image 20260524225213.png",
-    "Estadística Avanzada/Tarea EFA Claude.md",
     "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
-    "Estadística Avanzada/Análisis Factorial Exploratorio.md",
+    "Estadística Avanzada/Conceptos Básicos.md",
     "Estadística Avanzada/Aplicación EFA.md",
-    "Pictures/Captura de pantalla 2026-05-22 134905.png",
-    "Diseños Experimentales/Pre-registro.md",
+    "Estadística Avanzada/Análisis Factorial Exploratorio.md",
     "Diseños Experimentales/Muestra.md",
+    "Diseños Experimentales/Pre-registro.md",
+    "Pasted image 20260524224838.png",
+    "Pictures/Pasted image 20260524225213.png",
+    "Estadística Avanzada/Tarea EFA Claude.md",
+    "Pictures/Captura de pantalla 2026-05-22 134905.png",
     "Pictures/Captura de pantalla 2026-05-21 151116.png",
     "Pictures/Captura de pantalla 2026-05-21 150558.png",
     "Pictures/Captura de pantalla 2026-05-21 150220.png",
     "Estadística Avanzada/Modelos No Supervisados.md",
     "Estadística Avanzada/Modelos de Regresión.md",
     "Estadística Avanzada/Optimización de parámetros.md",
-    "Estadística Avanzada/Conceptos Básicos.md",
     "Estadística Avanzada/Regresión No Lineal.md",
     "Computational Modeling of Cognition and Behavior/Chapter 1.md",
     "Python DSA Udemy",
