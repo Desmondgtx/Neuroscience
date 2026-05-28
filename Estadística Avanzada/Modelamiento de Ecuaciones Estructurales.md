@@ -60,23 +60,5 @@ Los coeficientes no estandarizados B permiten examinar los efectos usando la esc
 $$SD = \sqrt{\frac{\sum(x-\bar{x})^2}{N-1}}$$
 
 
-## Conceptos básicos
-Las relaciones entre variables se representan por diagramas causales o estructurales
 
-### Notación
-- Círculos = Errores
-- Rectángulos = Variables observables o indicadores
-- Óvalos = Variables latentes o factores
-- Flechas = Efectos o ausalidad
-- Flechas arqueadas = Correlaciones
-
-### Definiciones
-- Variables endógenas:
-- Variables exógenas:
-- Cargas:
-
-
-### Desarrollo de teoría
-![[Captura de pantalla 2026-05-26 122811.png|449]]
-
-
+Clase 9: [[Conceptos SEM]]
