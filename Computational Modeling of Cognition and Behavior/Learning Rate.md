@@ -11,4 +11,4 @@ $$RT = N^{-β}$$
 
 ![[Learning Rate.png]]
 
-With [[Residual Mean-Squared Deviation]] can captures individual differences in learning speed or task differences between participants
+

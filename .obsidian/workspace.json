@@ -11,10 +11,14 @@
             "id": "bd060f4fa0cf2909",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Estadística Avanzada/Sin título.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Sin título"
             }
           }
         ]
@@ -124,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
+                "file": "Estadística Avanzada/Sin título.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Modelamiento de Ecuaciones Estructurales"
+              "title": "Esquema de Sin título"
             }
           },
           {
@@ -170,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5,
-    "collapsed": true
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,17 +187,27 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "8295777054cfe80c",
+  "active": "bd060f4fa0cf2909",
   "lastOpenFiles": [
+    "Python DSA Udemy/Sin título.md",
+    "Estadística Avanzada/Conceptos SEM.md",
+    "Estadística Avanzada/Sin título.md",
+    "Estadística Avanzada/Conceptos Básicos.md",
+    "Computational Modeling of Cognition and Behavior/Learning Rate.md",
+    "Computational Modeling of Cognition and Behavior/Residual Mean-Squared Deviation.md",
+    "Algorithms and Data Structures/Basics Python.md",
+    "Algorithms and Data Structures/OOP.md",
+    "Scripts/Softmax Function Script.md",
+    "Scripts/Random Walk Model Script.md",
+    "Scripts/Q-Learning Update Script.md",
+    "Scripts/Learning Rate Script.md",
     "Pictures/Pasted image 20260528141200.png",
     "Pasted image 20260528141026.png",
     "Pictures/Captura de pantalla 2026-05-26 122811.png",
     "Pictures/Pasted image 20260528141038.png",
-    "Estadística Avanzada/Conceptos SEM.md",
     "Computational Modeling of Cognition and Behavior/Computational Modeling.md",
     "Estadística Avanzada/Modelamiento de Ecuaciones Estructurales.md",
     "Estadística Avanzada/Tarea EFA.md",
-    "Estadística Avanzada/Conceptos Básicos.md",
     "Estadística Avanzada/Aplicación EFA.md",
     "Estadística Avanzada/Análisis Factorial Exploratorio.md",
     "Diseños Experimentales/Muestra.md",
@@ -213,17 +226,8 @@
     "Computational Modeling of Cognition and Behavior/Chapter 1.md",
     "Python DSA Udemy",
     "Computational Modeling of Cognition and Behavior/Chapter 2.md",
-    "Computational Modeling of Cognition and Behavior/Chapter 3.md",
-    "Computational Modeling of Cognition and Behavior/Learning Rate.md",
-    "Prosocial Behavior/Concepts Prosocial Behavior.md",
-    "Prosocial Behavior/Lockwod et al., 2016.md",
-    "Prosocial Behavior/Seminario.md",
-    "Algorithms and Data Structures/OOP.md",
-    "Algorithms and Data Structures/Basics Python.md",
     "UV/RNNs.canvas",
-    "UV/Taller Neurociencias Computacional.md",
     "Causal Reasoning/Web.canvas",
-    "Estadística Avanzada/Distribuciones.md",
     "Sin título.canvas",
     "Causal Reasoning/Markov Machines.canvas",
     "Essential Math for Data Science",

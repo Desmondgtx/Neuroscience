@@ -60,3 +60,6 @@ Ejemplo:
 $$y = \lambda_y \eta + \epsilon$$
 Ejemplo:
 ![[Pasted image 20260528141200.png]]
+
+
+Clase 10: [[Estadística Avanzada/Sin título|Sin título]]
