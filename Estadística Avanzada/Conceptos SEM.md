@@ -53,13 +53,49 @@ Las relaciones entre variables se representan por diagramas causales o estructur
 ## Fórmulas
 ### Variable Endógena
 $$X = \lambda_x ξ + \phi $$
+
 Ejemplo:
-![[Pasted image 20260528141038.png]]
+
+$$
+\begin{vmatrix}
+x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5
+\end{vmatrix} = 
+\begin{vmatrix}
+\lambda_{11} & 0 & 0 \\ 
+\lambda_{21} & 0 & 0 \\ 
+0 & \lambda_{32} & 0 \\ 
+0 & \lambda_{42} & 0 \\ 
+0 & 0 & \lambda_{53}
+\end{vmatrix} *
+\begin{vmatrix}
+\xi_1 \\ \xi_2 \\ \xi_3
+\end{vmatrix} + 
+\begin{vmatrix}
+\delta_1 \\ \delta_2 \\ \delta_3 \\ \delta_4 \\ \delta_5
+\end{vmatrix}
+$$
+
 
 ### Variable Exógena
 $$y = \lambda_y \eta + \epsilon$$
+
 Ejemplo:
-![[Pasted image 20260528141200.png]]
+$$
+\begin{vmatrix}
+y_1 \\ y_2 \\ y_3
+\end{vmatrix} = 
+\begin{vmatrix}
+\lambda_{11} & 0 \\
+0 & \lambda{22} \\
+0 & \lambda{32}
+\end{vmatrix} *
+\begin{vmatrix}
+\eta_1 \\ \eta_2
+\end{vmatrix} +
+\begin{vmatrix}
+\xi_1 \\ \xi_2 \\ \xi_3
+\end{vmatrix}
+$$
 
 
 Clase 10: [[Estadística Avanzada/Sin título|Sin título]]
