@@ -2,7 +2,7 @@
 
 
 
-[[Conceptos generales]]
+[[General Concepts]]
 
 
-[[Problemas DSA]]
+[[DSA Problems]]
