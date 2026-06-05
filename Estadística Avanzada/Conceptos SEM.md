@@ -86,8 +86,8 @@ y_1 \\ y_2 \\ y_3
 \end{vmatrix} = 
 \begin{vmatrix}
 \lambda_{11} & 0 \\
-0 & \lambda{22} \\
-0 & \lambda{32}
+0 & \lambda_{22} \\
+0 & \lambda_{32}
 \end{vmatrix} *
 \begin{vmatrix}
 \eta_1 \\ \eta_2

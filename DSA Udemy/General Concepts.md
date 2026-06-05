@@ -212,7 +212,6 @@ Both pointers only move **rightward** — each element enters and exits the wind
 
 # Classes in Python
 
-
 ```python
 # 1)
 class Cookie: # Define class
@@ -252,6 +251,7 @@ id(num2) = 140727958956656 # Points to the exact same variable
 # Same memory address
 # id = Addres in memory
 ```
+
 
 ## Dictionaries
 
