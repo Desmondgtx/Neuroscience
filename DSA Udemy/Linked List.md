@@ -210,12 +210,12 @@ class LinkedList:
 		self.tail = new_node
 		self.length += 1
 		
-		def pop_firt(self):
+		def pop_first(self):
 			if self.length == 0:
 				return None
 				
 		temp = self.head
-		self.heaf = self.head.next
+		self.head = self.head.next
 		temp.next = None
 		self.length -= 1
 		
@@ -260,7 +260,7 @@ class LinkedList:
 		self.tail = new_node
 		self.length += 1
 		
-	def set_value(self, index, vlaue):
+	def set_value(self, index, value):
 		temp = self.get(index)
 		if temp:
 			temp.value = value
@@ -281,7 +281,7 @@ class LinkedList:
 		
 	def insert(self, index, value):
 		if index < 0 or index > self.length:
-			return false # Out of range
+			return False # Out of range
 		
 		#Prepend functions
 		if index == 0:
@@ -319,12 +319,12 @@ class LinkedList:
 			return None # Out of range
 		if index == 0:
 			return self.pop_first()
-		if index == self.length
+		if index == self.length:
 			return self.pop()
 		
 		prev = self.get(index-1)
 		temp = prev.next # Remove Node
-		prev.next == temp.next
+		prev.next = temp.next
 		temp.next = None # Delete Node
 		self.length -= 1
 		return temp
