@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 310.5,
+    "collapsed": true
   },
   "right": {
     "id": "f053846ac6e8c6e3",
@@ -129,7 +130,7 @@
               "type": "outline",
               "state": {
                 "file": "DSA Udemy/Linked List Problems.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -190,11 +191,11 @@
   },
   "active": "34b9699845182058",
   "lastOpenFiles": [
+    "DSA Udemy/Linked List Problems.md",
     "DSA Udemy/Linked List LeetCode.md",
     "DSA Udemy/Linked List.md",
     "DSA Udemy/General Concepts.md",
     "DSA Udemy/Big O Notation.md",
-    "DSA Udemy/Linked List Problems.md",
     "DSA Udemy/DSA Problems.md",
     "Prosocial Behavior/Lockwod et al., 2016.md",
     "Estadística Avanzada/Conceptos SEM.md",
