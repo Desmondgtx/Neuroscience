@@ -19,7 +19,7 @@ Output:
 # code here
 ```
 
-## Notes
+## Conclusion
 - What did this problem teach me?
 - Edge cases to remember
 - Common mistakes
