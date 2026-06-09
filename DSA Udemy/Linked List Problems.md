@@ -353,15 +353,35 @@ class LinkedList:
             self.tail.next = new_node
             self.tail = new_node
         return True
-        
+
+# O(n^2) approach
 def remove_duplicates(self):
-
-
-my_linked_list = LinkedList(1)
-my_linked_list.append(2)
-my_linked_list.append(3)
-my_linked_list.append(4)
-my_linked_list.append(5)
+	current = self.head
+	
+	while current is not None:
+		runner = current
+		while runner.next is not None:
+			if runner.next.value == current.value:
+				runner.next = runner.next.next
+			else:
+				runner = runner.next
+		current = current.next
+				
+# O(n) approach 
+def remove_duplicates(self):
+    values = set()
+        
+    previous = None
+    current = self.head
+        
+	while current is not None:
+		if current.value in values:
+			previous.next  = current.next
+			self.length -= 1
+		else:
+			values.add(current.value)
+			previous = current
+		current = current.next
 ```
 
 ## Conclusion

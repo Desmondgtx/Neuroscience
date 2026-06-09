@@ -20,7 +20,8 @@
 
 ## Built-in Types
 
-### Lists
+### Lists or Arrays
+[[Lists or Arrays]]
 Ordered, mutable, allows duplicates
 
 Example code:
@@ -77,18 +78,6 @@ my_set = {1, 2, 3}   # with values (curly braces work only when non-empty)
 
 > [!note]
 > These are not built into Python. In DSA/LeetCode context, simpler types are used to replicate their behavior.
-
-### Array
-Python has no native fixed array. In LeetCode/NeetCode, **`list` is used as an array**.  
-For typed arrays (rare in DSA), use the `array` module.
-
-Example code:
-```python
-nums = [1, 2, 3, 4]   # standard in DSA practice
-
-import array
-typed = array.array('i', [1, 2, 3])  # 'i' = signed int
-```
 
 ### Stack
 LIFO — Last In, First Out. Implemented with `list`.

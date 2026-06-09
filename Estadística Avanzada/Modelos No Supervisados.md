@@ -4,7 +4,7 @@
 Clase 5: [[Optimización de parámetros]]
 
 
-# Aprendizaje No Supervisado
+## Aprendizaje No Supervisado
 Es el estudio o exploración de cómo están representados los datos y qué conclusiones podemos sacar de dicha representación
 
 Sirven para:
@@ -18,11 +18,11 @@ Porque reducirla dimensionalidad:
 
 
 
-# Descomposición en componentes principales (PCA)
+## Descomposición en componentes principales (PCA)
 **Problema:** Muchas veces hay variables que contienen práctimcamente la misma información que otras (muy correlacionadas entre sí), **por lo que agregan una dimensión más al problema sin aportar mucha más información**
 
 
-## Esquema general
+### Esquema general
 Podemos ver cómo se distribuyen los datos proyectando sobre cada uno de los features
 De las distribuciones podemos calcular su varianza, como una medida de qué tan dispersos están los datos en esa dirección
 Sin embargo, notamos direcciones (combinación lineal de features) donde los datos parecen variar más
@@ -32,11 +32,11 @@ Proyectando en esas nuevas direcciones
 Notar que, si nos olvidamos del componente 2, no perdemos tanta información
 
 
-## Dependencias de las unidades y escaleo
+### Dependencias de las unidades y escaleo
 ¿Qué pasa con la variabilidad si cambiamos las unidades de alguna de las cariables?
 
 
-## ¿Cuantos  componentes?
+### ¿Cuantos  componentes?
 
 Al ser un problema de aprendizzaje no-supervisado, no tenemos un conjunto de test para validar el número de componentes que elijamos. ¿Con cuántas nos quedamos?
 
@@ -46,11 +46,11 @@ Podemos usar los primeros componentes principales ($Z_m$) como variable sindepen
 
 $$y \sim \beta_0 + \beta_1Z_1+\dots + \beta_nZ_n$$
 
-## Resumen de PCA
+### Resumen de PCA
 Los componentes principales son una combinación lineal de los features originales y se corresponden con los autovect
 
 
-## Motivación
+### Motivación
 Es más fácil conseguir datos y más barato, es más que nada data generada con una máquina (no hay que pagarle a alguien para identificar clases o chequear el output)
 - Minimizar distancia intra-cluster
 - Maximiar distancia entre-cluster
@@ -71,7 +71,7 @@ Clustering - estrategias
 	- Partitional vs hierarchical clustering
 
 
-# K-means
+## K-means
 Esquema
 Damos el número de clusters k que queremos obtener
 Computa los centroides de cada cluster como el promedio de las features de sus samples

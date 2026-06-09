@@ -4,7 +4,7 @@
 Clase 2: [[Modelos de Regresión]]
 
 
-# Repaso Regresión Lineal
+## Repaso Regresión Lineal
 Regresión con una variable dependiente y una variable independiente
 $$\hat{y} ∼ \hat{\beta_0} + \hat{\beta_1}*x_1$$
 

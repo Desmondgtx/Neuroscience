@@ -1,5 +1,5 @@
 
-# Clase 5 de Estadística Avanzada
+## Clase 5 de Estadística Avanzada
 
 Clase 4: [[Regresión Múltiple]]
 

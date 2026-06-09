@@ -4,7 +4,7 @@
 Clase 3: [[Regresión No Lineal]]
 
 
-# Regresión Logística
+## Regresión Logística
 Motivación:
 - Tenemos $x_1$ y $x_2$ como variables
 

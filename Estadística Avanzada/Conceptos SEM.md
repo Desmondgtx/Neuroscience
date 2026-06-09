@@ -98,4 +98,4 @@ y_1 \\ y_2 \\ y_3
 $$
 
 
-Clase 10: [[Estadística Avanzada/Sin título|Sin título]]
+Clase 10: [[Análisis Factorial Confirmatorio|Aplicación CFA]]

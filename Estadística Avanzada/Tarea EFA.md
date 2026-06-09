@@ -1,4 +1,11 @@
 
+## Tarea 1 de Estadística Avanzada
+
+Tarea 2: [[Tarea CFA]]
+
+Tarea 3: [[Tarea SEM]]
+
+Tarea [[Análisis Factorial Exploratorio]]
 
 Usando los datos del archivo SPSS Datos_Tareas_2026.sav (o bien, el mismo archivo en Excel), efectúe un EFA de los datos correspondientes a las variables predictoras y predichas, usando las técnicas y análisis vistos en el curso. Recuerde hacer un análisis descriptivo de los datos y apreciar normalidad de los datos. También recuerde que debe ver bien cuáles serían las variables predictoras, ya que puede haber una cadena de variables predictoras (i.e., una variable predice a otra, que a su vez, predice a otra). Por eso es conveniente apoyarse en teoría (literatura relevante). Por último, recuerde que cuando en un EFA no se extrae la cantidad postulada de factores (usando generalmente extracción de factores con eigenvalores mayor o igual a 1.0), uno puede extraer la cantidad de factores que uno estipule.
 Debe entregar un informe impreso (y también en un archivo PDF) que describa lo que efectuó y sus resultados, discutiendo brevemente los resultados. El informe debe permitir reproducir los análisis efectuados y los resultados obtenidos. 
