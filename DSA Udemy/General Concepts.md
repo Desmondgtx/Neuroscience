@@ -21,7 +21,7 @@
 ## Built-in Types
 
 ### Lists or Arrays
-[[Lists or Arrays]]
+[[Arrays]]
 Ordered, mutable, allows duplicates
 
 Example code:
@@ -50,7 +50,8 @@ Example code:
 my_dict = {}  
 
 # With values
-my_dict = {"nombre": "Diego", "apellido": "Garrido"}  
+my_dict = {"nombre": "Diego", 
+			"apellido": "Garrido"}  
 
 # Using constructor
 my_dict = dict()

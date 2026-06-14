@@ -50,7 +50,8 @@ class Node:
 		self.next = None  # pointer
 
 # Conceptually equivalent to: 
-{'value': 4, 'next': None}
+{'value': 4, 
+ 'next': None}
 
 # Call the function
 # Create a single node 

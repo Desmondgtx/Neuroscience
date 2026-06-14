@@ -6,19 +6,21 @@ An **array** is a linear data structure that stores elements in **contiguous mem
 In Python, the closest built-in equivalent is the **`list`** type, which is technically a **dynamic array** (resizes automatically). In DSA/LeetCode context, `list` is what we use whenever a problem says "array".
 
 
+
 ## List vs Numpy
 
-|Operación|`list` (DSA)|`numpy.array`|
-|---|---|---|
-|Append|`arr.append(x)` — O(1)|`np.append(arr, x)` — O(n), crea nuevo array|
-|Insert|`arr.insert(i, x)`|`np.insert(arr, i, x)` — crea nuevo array|
-|Pop|`arr.pop()`|No existe; usas slicing o `np.delete`|
-|Remove|`arr.remove(x)`|No existe|
-|Sort|`arr.sort()` in-place|`arr.sort()` o `np.sort(arr)`|
-|Suma elemento a elemento|bucle / list comprehension|`arr1 + arr2` (vectorizado) ⚡|
-|`arr * 2`|duplica el array `[1,2] * 2 = [1,2,1,2]`|multiplica cada elemento `[1,2]*2 = [2,4]`|
-|Tipo de datos|Heterogéneo (puede mezclar tipos)|Homogéneo (todos del mismo tipo)|
-|Tamaño|Dinámico (crece automático)|Fijo (redimensionar = crear nuevo)|
+| Operación                | `list` (DSA)                             | `numpy.array`                                |     |
+| ------------------------ | ---------------------------------------- | -------------------------------------------- | --- |
+| Append                   | `arr.append(x)` — O(1)                   | `np.append(arr, x)` — O(n), crea nuevo array |     |
+| Insert                   | `arr.insert(i, x)`                       | `np.insert(arr, i, x)` — crea nuevo array    |     |
+| Pop                      | `arr.pop()`                              | No existe; usas slicing o `np.delete`        |     |
+| Remove                   | `arr.remove(x)`                          | No existe                                    |     |
+| Sort                     | `arr.sort()` in-place                    | `arr.sort()` o `np.sort(arr)`                |     |
+| Suma elemento a elemento | bucle / list comprehension               | `arr1 + arr2` (vectorizado) ⚡                |     |
+| `arr * 2`                | duplica el array `[1,2] * 2 = [1,2,1,2]` | multiplica cada elemento `[1,2]*2 = [2,4]`   |     |
+| Tipo de datos            | Heterogéneo (puede mezclar tipos)        | Homogéneo (todos del mismo tipo)             |     |
+| Tamaño                   | Dinámico (crece automático)              | Fijo (redimensionar = crear nuevo)           |     |
+
 
 
 ## Big O of Common Operations
@@ -41,7 +43,7 @@ In Python, the closest built-in equivalent is the **`list`** type, which is tech
 | Reverse          | O(n)       |                                                         |
 | Min / Max / Sum  | O(n)       |                                                         |
 
-> [!tip] Amortized O(1) for append Python lists over-allocate memory. When full, they double the capacity (O(n) copy). But this happens rarely, so the **average** cost per append is O(1).
+
 
 ## Creating Arrays
 
@@ -49,6 +51,13 @@ In Python, the closest built-in equivalent is the **`list`** type, which is tech
 # Empty list
 arr = []
 arr = list()
+
+# Testear
+arr = [1,2,3]
+arr2 = list([1,2,3])
+
+print(type(arr)) # <class 'list'>
+print(type(arr2)) # <class 'list'>
 
 # With values
 arr = [1, 2, 3, 4, 5]
@@ -186,6 +195,8 @@ new_arr = arr[:]     # same thing, slicing
 new_arr = list(arr)  # same thing, constructor
 ```
 
+
+
 ## Slicing
 Slicing creates a **new list** (does not modify original). 
 Syntax: `arr[start:stop:step]` — `start` inclusive, `stop` exclusive.
@@ -222,22 +233,24 @@ result = [x if x > 0 else 0 for x in [-1, 2, -3, 4]]  # [0, 2, 0, 4]
 matrix = [[i*j for j in range(3)] for i in range(3)]
 ```
 
+
+
 ## Useful Built-in Functions
 
-|Function|What it does|Big O|
-|---|---|---|
-|`len(arr)`|Length of the array|O(1)|
-|`sum(arr)`|Sum of all elements|O(n)|
-|`max(arr)`|Maximum value|O(n)|
-|`min(arr)`|Minimum value|O(n)|
-|`sorted(arr)`|Returns sorted **new** list|O(n log n)|
-|`reversed(arr)`|Returns an iterator (use `list()` to materialize)|O(1) (lazy)|
-|`enumerate(arr)`|Returns `(index, value)` pairs|O(1) (lazy)|
-|`zip(a, b)`|Pairs up elements from two iterables|O(1) (lazy)|
-|`any(arr)`|True if any element is truthy|O(n)|
-|`all(arr)`|True if all elements are truthy|O(n)|
-|`map(fn, arr)`|Applies fn to each element|O(1) (lazy)|
-|`filter(fn, arr)`|Keeps elements where fn returns True|O(1) (lazy)|
+| Function          | What it does                                      | Big O       |
+| ----------------- | ------------------------------------------------- | ----------- |
+| `len(arr)`        | Length of the array                               | O(1)        |
+| `sum(arr)`        | Sum of all elements                               | O(n)        |
+| `max(arr)`        | Maximum value                                     | O(n)        |
+| `min(arr)`        | Minimum value                                     | O(n)        |
+| `sorted(arr)`     | Returns sorted **new** list                       | O(n log n)  |
+| `reversed(arr)`   | Returns an iterator (use `list()` to materialize) | O(1) (lazy) |
+| `enumerate(arr)`  | Returns `(index, value)` pairs                    | O(1) (lazy) |
+| `zip(a, b)`       | Pairs up elements from two iterables              | O(1) (lazy) |
+| `any(arr)`        | True if any element is truthy                     | O(n)        |
+| `all(arr)`        | True if all elements are truthy                   | O(n)        |
+| `map(fn, arr)`    | Applies fn to each element                        | O(1) (lazy) |
+| `filter(fn, arr)` | Keeps elements where fn returns True              | O(1) (lazy) |
 
 ```python
 # enumerate — very common in DSA
@@ -249,10 +262,11 @@ for a, b in zip([1, 2, 3], ['a', 'b', 'c']):
     print(a, b)
 ```
 
+
+
 ## Common DSA Patterns with Arrays
 
 ### Two Pointers
-
 Two indices that move through the array (often from opposite ends or same end at different speeds).
 
 ```python
@@ -268,11 +282,9 @@ def is_palindrome(arr):
 ```
 
 ### Sliding Window
-
 See [[General Concepts]] — already covered in detail.
 
 ### Prefix Sum
-
 Precompute cumulative sums for O(1) range queries.
 
 ```python
@@ -285,7 +297,6 @@ for x in arr:
 ```
 
 ### In-place Modification
-
 Modify the array without using extra space — often required for O(1) space complexity.
 
 ```python
@@ -299,6 +310,8 @@ def reverse(arr):
 ```
 
 > [!tip] Pythonic swap `a, b = b, a` — no temp variable needed. Very common in DSA.
+
+
 
 ## Common Pitfalls
 
@@ -323,32 +336,10 @@ def reverse(arr):
 > a is b   # False (different objects in memory)
 > ```
 
-> [!warning] Mutable default arguments
-> 
-> ```python
-> # ❌ Bug: the default list is shared across all calls
-> def add_item(item, arr=[]):
->     arr.append(item)
->     return arr
-> 
-> # ✅ Use None as default
-> def add_item(item, arr=None):
->     if arr is None:
->         arr = []
->     arr.append(item)
->     return arr
-> ```
-
-> [!warning] Shallow vs deep copy `arr.copy()` and `arr[:]` create a **shallow copy** — nested objects are still shared.
-> 
-> ```python
-> import copy
-> deep = copy.deepcopy(arr)  # for nested structures
-> ```
-
 
 
 ## Exercises
 
-[[Arrays Problems]]
+[[Arrays LeetCode]]
+
 
